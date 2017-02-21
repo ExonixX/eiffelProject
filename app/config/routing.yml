@@ -1,3 +1,7 @@
+eiffel_projecteiffel_project:
+    resource: "@eiffelProjecteiffelProjectBundle/Resources/config/routing.yml"
+    prefix:   /
+
 app:
     resource: "@AppBundle/Controller/"
     type:     annotation
