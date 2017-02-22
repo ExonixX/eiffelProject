@@ -1,0 +1,11 @@
+profil:
+    path:     /
+    defaults: { _controller: profilBundle:Profil:index }
+
+information:
+    path:     /profil/informations
+    defaults: { _controller: profilBundle:Profil:informations }
+
+PJ:
+    path:     /profil/piecesjointes
+    defaults: { _controller: profilBundle:Profil:piecesjointes }
